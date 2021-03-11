@@ -1,0 +1,22 @@
+<ng-template #content let-modal>
+    <div class="modal-header" style="background-color: #2e3035">
+      <h4 class="modal-title" id="modal-basic-title" style="color: white">Options</h4>
+      <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Close')">
+        <span aria-hidden="true" style="color: white">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body" style="background-color: #2e3035; display: flex; padding: 10px; flex-flow: column">
+        <div style="overflow-y: scroll; width: 100%; max-height: 70vh; height: fit-content">
+            <div *ngFor="let elem of data.Countries">
+                <button (click)="modal.close(elem)">{{elem.Country}}</button>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer" style="background-color: #2e3035">
+      <!-- <button (click)="modal.close('Validate')" style="height: 40px; width: 130px; background-color: #1bb76e; color: white; border-radius: 5px; appearance: none; border: 0px; font-weight: bold">Envoyer</button> -->
+    </div>
+</ng-template>
+
+<div style="display: flex; width: inherit; height: inherit; cursor: pointer" (click)="open(content)">
+    <h1 style="margin: auto">Covid-19</h1>
+</div>

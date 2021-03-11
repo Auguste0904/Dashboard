@@ -1,0 +1,29 @@
+<div class="app-home">
+    <div class="flex-menu">
+        <div class="menu">
+            <div class="menu-content-header">
+                <img class="menu-content" src="assets/home.svg" alt="dashboard" />
+                <h4 class="menu-content-label">Dashboard</h4>
+            </div>
+            <div class="menu-content-header" (click)="goToWidgets()">
+                <img class="menu-content" src="assets/add-on2.svg" alt="add-on" />
+                <h4 class="menu-content-label">Widgets</h4>
+            </div>
+            <div class="menu-content-header-down" (click)="goToTerms()">
+                <img class="menu-content" src="assets/term.svg" alt="terms" />
+                <h4 class="menu-content-label">Terms And Conditions</h4>
+            </div>
+            <div class="menu-content-header" (click)="goToAboutUs()">
+                <img class="menu-content" src="assets/about-us.svg" alt="about-us" />
+                <h4 class="menu-content-label">About us</h4>
+            </div>
+        </div>
+        <div class="content">
+            <div *ngFor="let widget of widgets" class="widget-parent">
+                <div class="widget">
+                    <widget [data]="widget" style="width: inherit; height: inherit"></widget>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

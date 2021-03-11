@@ -1,0 +1,29 @@
+.widget-name {
+    position: absolute;
+    color: white;
+    -webkit-text-stroke: 0.5px black;
+    margin-left: 6px;
+    margin-top: 6px;
+}
+
+.instant-wid {
+    display: flex;
+    margin: auto;
+    height: 84px;
+    width: 84px;
+}
+.instant-wid-son {
+    position: absolute;
+    height: 84px;
+    width: 86px;
+    background-color: red;
+    border-radius: 50%;
+    margin-top: 3px;
+    margin-left: 3px;
+}
+.instant-wid-son-son {
+    position: absolute;
+    height: 89px;
+    width: 94px;
+    background: url("https://www.myinstants.com/media/images/transparent_button_small_normal.png.pagespeed.ce.Q_pq0WnHY3.png") no-repeat;
+}

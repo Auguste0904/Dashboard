@@ -1,0 +1,45 @@
+.flexTerms {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.centerElement {
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+
+h1[id="terms"] {
+    padding-left: 20vw;
+    padding-bottom: 5vh;
+}
+
+p[id="termesP"] {
+    display: flex !important;
+    font-size: 15px;
+    min-height: 1px;
+    white-space: normal;
+    text-align: justify;
+}
+
+h2 {
+    font-size: 35px !important;
+    text-decoration: underline;
+    padding-bottom: 2vh;
+}
+
+h3 {
+    font-size: 18px !important;
+    /* text-align: center; */
+}
+
+ul {
+    font-size: 15px !important;
+    padding-top: 1vh;
+}
+
+a[id="terms"] {
+    white-space: nowrap;
+    font-size: smaller;
+}

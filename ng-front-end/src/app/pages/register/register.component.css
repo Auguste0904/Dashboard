@@ -1,0 +1,215 @@
+.flex {
+    display: flex;
+    flex-flow: column;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.form-box-inherit {
+    display: flex;
+    flex-flow: column;
+    margin: auto;
+    height: fit-content;
+    width: fit-content;
+}
+
+.form-box {
+    display: flex;
+    flex-flow: column;
+    border-radius: 6px;
+    background-color: #2C2F34;
+    width: 350px;
+    height: fit-content;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 9px 3px rgba(0,0,0,.2);
+}
+
+.sign-in {
+    padding: 10px 25px;
+    background: #5c69ff;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    margin-right: 0;
+    margin-left: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.need-account {
+    margin-right: 0;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #fff;
+    text-decoration: none;
+}
+.need-account:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.form-validate {
+    margin-top: 15px;
+    display: flex;
+    flex-flow: row;
+}
+
+input[type=text] {
+    color: grey;
+    height: 32px;
+    width: -webkit-fill-available;
+    border: 1px solid transparent;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.1);
+    background-color: #191919;
+    outline: 0;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    font-size: .9em;
+    line-height: 1.5em;
+    resize: none;
+    margin-bottom: 10px;
+    letter-spacing: .02em;
+    border-radius: 5px;
+}
+
+input[type=password] {
+    color: grey;
+    height: 32px;
+    width: -webkit-fill-available;
+    border: 1px solid transparent;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.1);
+    background-color: #191919;
+    outline: 0;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    font-size: .9em;
+    line-height: 1.5em;
+    resize: none;
+    margin-bottom: 10px;
+    letter-spacing: .02em;
+    border-radius: 5px;
+}
+
+input[type=confirmPassword] {
+    color: grey;
+    height: 32px;
+    width: -webkit-fill-available;
+    border: 1px solid transparent;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.1);
+    background-color: #191919;
+    outline: 0;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    font-size: .9em;
+    line-height: 1.5em;
+    resize: none;
+    letter-spacing: .02em;
+    border-radius: 5px;
+}
+
+.forgot-password {
+    color: #999;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 14px;
+    top: 0;
+    right: 0;
+    display: inline-block;
+    padding: 9px 10px;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+    background-color: #404040;
+}
+
+.flexbox {
+    display: flex;
+}
+
+.log-with-dashboard {
+    display: flex;
+    flex-flow: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 350px;
+    height: fit-content;
+}
+
+.line-left {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%);
+    width: -webkit-fill-available;
+    height: 1px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.line-right {
+    background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%);
+    width: -webkit-fill-available;
+    height: 1px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+p {
+    font-size: 17px;
+    letter-spacing: .03em;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+    margin-left: 5px;
+    margin-right: 5px;
+    white-space: nowrap;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button-google {
+    width: 57px;
+    height: 40px;
+    color: white;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    appearance: none;
+    background: #212121;
+    border-radius: 5px;
+    border-bottom: 5px solid;
+    border-bottom-color: #4285F4;
+    transition: 0.3s;
+}
+.button-google:hover {
+    background: #4285F4;
+}
+
+.oauth-size {
+    width: 20px;
+    height: 20px;
+}
+
+h1 {
+    color: #408b58;
+    font-weight: bolder !important;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 3.5rem !important;
+    text-shadow: 0 3px 0 #265c36, 0 4px 0 #1b5a2e, 0 5px 0 #165328, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+}
+
+.app-login {
+    background-color: #141518;
+    color: white;
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column;
+    width: fit-content;
+    height: fit-content;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}

@@ -1,0 +1,28 @@
+.tips {
+    position: absolute;
+    height: 32px;
+    margin-left: 5px;
+    padding: 5px;
+    display: block;
+    opacity: 0.85;
+    font-size: 13px;
+    color: white;
+}
+.tips-arrow {
+    left: -5px;
+    border-color: transparent #d43030 transparent transparent;
+    background: url(https://s.imgur.com/images/tipsy.png);
+    border-style: solid;
+    border-width: 5px;
+    position: absolute;
+    top: 50%;
+    margin-top: -4px;
+}
+.tips-inner {
+    border-color: #d43030;
+    background-color: #d43030;
+    padding: 2px 3px;
+    color: white;
+    overflow: hidden;
+    border-radius: 4px;
+}

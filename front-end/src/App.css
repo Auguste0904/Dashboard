@@ -1,0 +1,62 @@
+.App {
+  background-color: #141518;
+  color: white;
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column;
+  width: fit-content;
+  height: fit-content;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+/* 
+.logo {
+  margin-left: 38%;
+  margin-top: 20px;
+  width: 20%;
+  height: 20%;
+}
+
+.formGroup {
+  outline: auto;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-top: 1vh;
+  padding-bottom: 2vh;
+}
+
+.inputs {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10vh;
+}
+
+.flex {
+  display: flex;
+  flex-flow: column;
+}
+
+.validBtn {
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+  height: fit-content;
+}
+.formLoginBtn {
+  margin-left: auto;
+  margin-right: auto;
+};
+
+.textOauth {
+  display: flex;
+  font-size: large;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text {
+  font-size: large;
+  margin-left: 1vw;
+  margin-top: 2vh;
+} */

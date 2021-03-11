@@ -1,0 +1,42 @@
+<div class="app-login">
+    <div class="flex">
+        <div class="form-box-inherit">
+            <h1>Dashboard</h1>
+            <div class="log-with-dashboard">
+                <p class="center">Sign in with</p>
+            </div>
+            <div class="form-box">
+                <button class="button-google" (click)="google()">
+                    <img src="assets/google.svg" class="oauth-size" alt="google" />
+                </button>
+            </div>
+            <div class="log-with-dashboard">
+                <div class="line-left"></div>
+                <p>or with Dashboard</p>
+                <div class="line-right"></div>
+            </div>
+            <form>
+                <div class="form-box">
+                    <div class="flexbox">
+                        <input [formControl]="email" type="text" name="email" id="email" placeholder="Email" />
+                        <tips *ngIf="emailSet === false" text="Enter your email."></tips>
+                    </div>
+                    <div class="flexbox">
+                        <input [formControl]="password" type="password" name="password" id="password" placeholder="Password" />
+                        <tips *ngIf="passwordSet == false" text="Enter your password."></tips>
+                        <a class="forgot-password" href="/forgotPassword">forgot?</a>
+                    </div>
+                </div>
+                <div class="form-validate">
+                    <a class="need-account" href="/register">need an account?</a>
+                    <div class="flexbox">
+                        <button class="sign-in" (click)="login()">Sign In</button>
+                        <tips *ngIf="loginSet == true" text="Wrong credentials."></tips>
+                        <tips *ngIf="errorSet == true" text="Something went wrong."></tips>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>

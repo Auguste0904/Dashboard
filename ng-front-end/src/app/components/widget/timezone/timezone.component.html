@@ -1,0 +1,9 @@
+<div *ngIf="time" style="display: flex; flex-flow: row; width: inherit; height: inherit">
+    <img src="https://www.learningtime.co/wp-content/uploads/2018/03/Learning-Time-Logo-icon.png"
+        style="height: 80%; object-fit: contain; width: auto; margin-top: auto; margin-left: 10px; margin-bottom: auto" />
+    <h3 style="margin-left: 10px; margin-right: auto; margin-top: auto; margin-bottom: auto">Time IP</h3>
+    <div
+        style="margin-left: 20px; display: flex; flex-flow: column; margin-top: auto; margin-bottom: auto; margin-right: auto; width: -webkit-fill-available">
+        <p>{{time.datetime}}</p>
+    </div>
+</div>

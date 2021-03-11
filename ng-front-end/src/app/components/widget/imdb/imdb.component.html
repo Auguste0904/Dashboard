@@ -1,0 +1,7 @@
+<div style="display: flex; flex-flow: row; width: inherit; height: inherit">
+    <div *ngIf="result != null" style="display: flex; flex-flow: row; width: inherit; height: inherit">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/IMDB_Logo_2016.svg/1200px-IMDB_Logo_2016.svg.png" style="height: 50px; width: 50x">
+        <img [src]="result.image.url" style="height: 50px; width: 80px; object-fit: contain">
+        <p>{{result.title}} {{result.year}} {{result.numberOfEpisodes}} episodes {{result.runningTimeInMinutes}} min/ep </p>
+    </div>
+</div>

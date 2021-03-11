@@ -1,0 +1,154 @@
+.app-terms {
+    background-color: #141518;
+    color: white;
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column;
+    width: fit-content;
+    height: fit-content;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.flex {
+    display: flex;
+    /* flex-flow: column;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden; */
+}
+
+.line-left {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%);
+    width: -webkit-fill-available;
+    height: 1px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+p {
+    font-size: 15px;
+    letter-spacing: .03em;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    text-align: justify;
+}
+
+p[id="last"] {
+    font-size: 15px;
+    letter-spacing: .03em;
+    margin-top: auto !important;
+    margin-bottom: 5vh !important;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    text-align: justify;
+}
+
+.center {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+h1 {
+    color: #408b58;
+    font-weight: bolder !important;
+    margin-left: 37vw !important;
+    margin-right: auto !important;
+    font-size: 3.5rem !important;
+    text-shadow: 0 3px 0 #265c36, 0 4px 0 #1b5a2e, 0 5px 0 #165328, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+    /* padding-left: 20vw; */
+    /* padding-bottom: 5vh; */
+}
+
+h2 {
+    font-size: 35px !important;
+    text-decoration: underline;
+    padding-left: 10vw;
+    padding-bottom: 2vh;
+}
+
+h3 {
+    font-size: 18px !important;
+    /* text-align: center; */
+}
+
+ul {
+    font-size: 15px !important;
+    margin-top: -1vh;
+    margin-left: 10vw;
+}
+
+a {
+    white-space: nowrap;
+    /* font-size: smaller; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.flexTerms {
+    display: flex;
+    flex-flow: column;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.centerElement {
+    padding-left: 15vw;
+    padding-right: 15vw;
+    background-color: #2C2F34;
+}
+
+h1[id="terms"] {
+    padding-left: 20vw;
+    padding-bottom: 5vh;
+}
+
+p[id="termesP"] {
+    display: flex !important;
+    font-size: 15px;
+    min-height: 1px;
+    white-space: normal;
+    text-align: justify;
+}
+
+h2 {
+    font-size: 35px !important;
+    text-decoration: underline;
+    padding-bottom: 2vh;
+}
+
+h3 {
+    font-size: 18px !important;
+    /* text-align: center; */
+}
+
+ul {
+    font-size: 15px !important;
+    padding-top: 1vh;
+}
+
+a[id="terms"] {
+    white-space: nowrap;
+    font-size: smaller;
+}

@@ -1,0 +1,8 @@
+<div *ngIf="forecast" style="display: flex; flex-flow: row; width: inherit; height: inherit">
+    <img [src]="'http://openweathermap.org/img/wn/' + forecast.weather[0].icon + '@2x.png'" style="height: 80%; object-fit: contain; width: auto; margin-top: auto; margin-left: 10px; margin-bottom: auto"/>
+    <h3 style="margin-left: 10px; margin-right: auto; margin-top: auto; margin-bottom: auto">{{forecast.name}}</h3>
+    <div style="display: flex; flex-flow: row; margin-left: auto; margin-top: auto; margin-bottom: auto; margin-right: auto; width: -webkit-fill-available">
+        <div style="margin: auto">Temperature: {{math.round(forecast.main.temp - 273)}}°C</div>
+        <div style="margin: auto">Humidity: {{forecast.main.humidity}}%</div>
+    </div>
+</div>

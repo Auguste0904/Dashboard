@@ -1,0 +1,24 @@
+.flexAbout {
+    display: flex;
+}
+
+.centerElems {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 3vh;
+}
+
+/* .about-counten {
+    margin-top: 30vh;
+} */
+
+.content-about-author {
+    margin-top: 28vh;
+    font-size: 25px;
+    text-align: center;
+}
+
+.content-about-describe {
+    font-size: 20px !important;
+}

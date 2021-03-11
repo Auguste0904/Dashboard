@@ -1,0 +1,11 @@
+<div *ngIf="covid" style="display: flex; flex-flow: row; width: inherit; height: inherit">
+    <img src="https://www.flaticon.com/svg/static/icons/svg/2659/2659980.svg" style="height: 80%; object-fit: contain; width: auto; margin-top: auto; margin-left: 10px; margin-bottom: auto"/>
+    <div *ngFor="let co of covid" style="display: flex">
+        <div *ngIf="co.Slug == data.result.Slug" style="display: flex">
+            <h3 style="margin-left: 10px; margin-right: auto; margin-top: auto; margin-bottom: auto">{{co.Country}}</h3>
+            <div style="margin-left: 20px; display: flex; flex-flow: column; margin-top: auto; margin-bottom: auto; margin-right: auto; width: -webkit-fill-available">
+                <p>New Confirmed: {{co.NewConfirmed}}</p>  <p>Total Confirmed: {{co.TotalConfirmed}}</p>  <p>Total Death: {{co.TotalDeaths}}</p>
+            </div>
+        </div>
+    </div>
+</div>

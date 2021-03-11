@@ -1,0 +1,31 @@
+version: "3.3"
+services:
+    ## CLIENT ##
+    # front-end:
+    #     container_name: front-end
+    #     build:
+    #         context: ./front-end
+    #         dockerfile: Dockerfile
+    #     ports:
+    #         - 80:4040
+    #     restart: always
+    ng-front-end:
+        container_name: ng-front-end
+        build:
+            context: ./ng-front-end
+            dockerfile: Dockerfile
+        ports:
+            - 80:4200
+        restart: always
+    ## SERVER ##
+    back-end:
+        container_name: back-end
+        build:
+            context: ./back-end
+            dockerfile: Dockerfile
+        volumes:
+            - ./back-end:/home/node/api
+            - /home/node/api/node_modules
+        ports:
+            - 8080:8080
+        restart: always
